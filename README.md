@@ -111,3 +111,6 @@ Each algorithm is demonstrated in a separate function within the `main.cpp` file
 - `bit_or`: Bitwise OR operation (X | Y).
 - `bit_xor`: Bitwise XOR operation (X ^ Y).
 - `bit_not`: Bitwise NOT operation (~X).
+ 
+For detailed documentation, please refer to [this Google Docs file]((https://docs.google.com/document/d/1LBrtu3clDwqwFf0wHy3Yh97giq3DEj35Sso17Gxjxls/edit?usp=sharing)).
+
