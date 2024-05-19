@@ -24,7 +24,7 @@ void Batch_operations(){
     auto square = [](const int& n) { return n * n; };
 
     cout << "Using for_each_n: ";
-    //for_each_n(nums2.begin(), 3, [](int& n){ cout << n << ' '; });
+    for_each_n(nums2.begin(), 3, [](int& n){ cout << n << ' '; });
     cout << endl;
 }
 
