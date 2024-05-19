@@ -57,13 +57,13 @@ void Search_operations() {
 
     // Find the first occurrence of 3
     auto it = find(nums2.begin(), nums2.end(), 30);
-    if(it != nums2.end())
+    if(it != nums2.end()) // returns container.end if element not found
         cout << "Found " << *it << " at position " << distance(nums2.begin(), it) << endl;
     else
         cout << "3 not found\n";
 
     // Find the first even number
-    auto it_even = find_if(nums2.rbegin(), nums2.rend(), [](int n) { return n % 2 == 0; });
+    auto it_even = find_if(nums2.begin(), nums2.end(), [](int n) { return n % 2 == 0; });
     if(it_even != nums2.rend())
         cout << "Found first even number " << *it_even << " at position " << nums2.size() - distance(nums2.rbegin(), it_even) - 1<< endl;
     else
