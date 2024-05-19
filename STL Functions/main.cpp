@@ -64,7 +64,7 @@ void Search_operations() {
 
     // Find the first even number
     auto it_even = find_if(nums2.begin(), nums2.end(), [](int n) { return n % 2 == 0; });
-    if(it_even != nums2.rend())
+    if(it_even != nums2.end())
         cout << "Found first even number " << *it_even << " at position " << nums2.size() - distance(nums2.rbegin(), it_even) - 1<< endl;
     else
         cout << "No even number found\n";
